@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8sp"
+    tools:context=".CompareToCurrentJobActivity">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="10dp"
+        android:baselineAligned="false"
+        android:padding="8sp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="CURRENT JOB"
+                android:textIsSelectable="false"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="JOB OFFER"
+                android:textIsSelectable="false"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:padding="8sp"
+                android:text="Title"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/titleCurrentJob"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/titleOffer"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="0"
+                android:padding="8sp"
+                android:text="Company"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/companyCurrentJob"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/companyOffer"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:padding="8sp"
+                android:text="Location"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/locationCurrentJob"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/locationOffer"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:maxLines="3"
+                android:padding="8sp"
+                android:text="Adjusted\nYearly Salary"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ysCurrentJob"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ysOffer"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:padding="8sp"
+                android:text="Adjusted \nYearly Bonus"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ybCurrentJob"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ybOffer"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:padding="8sp"
+                android:text="Retirement\n Benefit"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/retBenCurrentJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/retBenOffer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:padding="8sp"
+                android:text="Relocation\n Stipend"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/relStipendCurrentJob"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/relStipendOffer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8sp">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="0"
+                android:padding="8sp"
+                android:text="Restricted\n Stock"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rsuaCurrentJob"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="1"
+                android:padding="8sp"
+                android:shadowColor="#3B4998"
+                android:text="TextView"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/rsuaOffer"
+                android:layout_width="100dp"
+                android:layout_height="61dp"
+                android:layout_column="2"
+                android:padding="8sp"
+                android:text="TextView"
+                android:textSize="16sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-68dp"
+        android:layout_marginBottom="15dp"
+        android:text="Add New Offer" />
+
+    <Button
+        android:id="@+id/buttonMainMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="-92dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toEndOf="@+id/buttonBack"
+        android:text="Main Menu" />
+</RelativeLayout>

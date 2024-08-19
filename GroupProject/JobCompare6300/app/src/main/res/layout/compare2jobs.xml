@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/empty"
+                            android:layout_width="8dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/job1View"
+                            android:layout_width="10dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Job 1"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/job2View"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:text="Job 2"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="24dp"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/titleView"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Title"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/titleJob1"
+                            android:layout_width="122dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/titleJob2"
+                            android:layout_width="139dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="360dp"
+                        android:layout_height="match_parent"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/companyView"
+                            android:layout_width="84dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Company"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/companyJob1"
+                            android:layout_width="138dp"
+                            android:layout_height="34dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/companyJob2"
+                            android:layout_width="138dp"
+                            android:layout_height="36dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/locationView"
+                            android:layout_width="70dp"
+                            android:layout_height="wrap_content"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Location"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/locationJob1"
+                            android:layout_width="138dp"
+                            android:layout_height="35dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/locationJob2"
+                            android:layout_width="138dp"
+                            android:layout_height="35dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/aysView"
+                            android:layout_width="37dp"
+                            android:layout_height="59dp"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Adjusted Salary"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/aysJob1"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/aysJob2"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/aybView"
+                            android:layout_width="96dp"
+                            android:layout_height="57dp"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Adjusted Bonus"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/aybJob1"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/aybJob2"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="395dp"
+                        android:layout_height="wrap_content"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/retirementView"
+                            android:layout_width="61dp"
+                            android:layout_height="57dp"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Retirement Benefits"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/retirementJob1"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/retirementJob2"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/relocationView"
+                            android:layout_width="82dp"
+                            android:layout_height="54dp"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Relocation Stipend"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/relocationJob1"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/relocationJob2"
+                            android:layout_width="138dp"
+                            android:layout_height="59dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="98dp"
+                        android:padding="8sp">
+
+                        <TextView
+                            android:id="@+id/stockView"
+                            android:layout_width="94dp"
+                            android:layout_height="80dp"
+                            android:layout_column="1"
+                            android:padding="8sp"
+                            android:text="Restricted Stock Unit Award"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/stockJob1"
+                            android:layout_width="138dp"
+                            android:layout_height="71dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/stockJob2"
+                            android:layout_width="142dp"
+                            android:layout_height="68dp"
+                            android:layout_column="2"
+                            android:padding="8sp"
+                            android:textIsSelectable="false"
+                            android:textSize="16sp" />
+                    </TableRow>
+                </TableLayout>
+
+                <Button
+                    android:id="@+id/compareBackButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Back"
+                    tools:layout_editor_absoluteY="846dp" />
+
+                <Button
+                    android:id="@+id/compare2MainMenu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MainMenu" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

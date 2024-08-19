@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1,2,3,4,5"
+    >
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/rank_tv"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/company_tv"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_column="1"/>
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/score_tv"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:maxLines="1"
+            android:maxLength="10"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:gravity="center"
+
+            android:layout_column="1"/>
+        <TextView
+            android:id="@+id/current_tv"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="14dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_column="1"/>
+    </TableRow>
+
+</TableLayout>
